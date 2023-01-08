@@ -1,0 +1,106 @@
+[
+    {
+        "id" : 1,
+        "questionText" : "What is OOPS?",
+        "type" : "single choice",
+        "options" : [
+            {
+                "choice_label": "a",
+                "choice_text" : "Object Oriented Programming System"
+            },
+            {
+                
+                "choice_label": "b",
+                "choice_text" : "Word said when something is by mistake/ hurry"
+            },
+            {
+                
+                "choice_label": "c",
+                "choice_text" : "Object oriented paradigm system"
+            },
+            {
+                
+                "choice_label": "d",
+                "choice_text" : "Object Oriented Programming Structure"
+            }
+        ]
+    },
+    {
+        "id" : 2,
+        "questionText" : "What is JAVA?",
+        "type" : "single choice",
+        "options" : [
+            {
+                "choice_label": "a",
+                "choice_text" : "Structured Programming language"
+            },
+            {
+                
+                "choice_label": "b",
+                "choice_text" : "Query Language"
+            },
+            {
+                
+                "choice_label": "c",
+                "choice_text" : "Object oriented programming language"
+            },
+            {
+                
+                "choice_label": "d",
+                "choice_text" : "Functional programming language"
+            }
+        ]
+    },
+    {
+        "id" : 3,
+        "questionText" : "What is C?",
+        "type" : "Multiple choice",
+        "options" : [
+            {
+                "choice_label": "a",
+                "choice_text" : "Structured Programming language"
+            },
+            {
+                
+                "choice_label": "b",
+                "choice_text" : "Object oriented programming language"
+            },
+            {
+                
+                "choice_label": "c",
+                "choice_text" : "Procedural language"
+            },
+            {
+                
+                "choice_label": "d",
+                "choice_text" : "Multithreaded language"
+            }
+        ]
+    },
+    {
+        "id" : 4,
+        "questionText" : "What is SQL?",
+        "type" : "Multiple choice",
+        "options" : [
+            {
+                "choice_label": "a",
+                "choice_text" : "Database language"
+            },
+            {
+                
+                "choice_label": "b",
+                "choice_text" : "Structured Query Language"
+            },
+            {
+                
+                "choice_label": "c",
+                "choice_text" : "Object oriented programming language"
+            },
+            {
+                
+                "choice_label": "d",
+                "choice_text" : "Functional programming language"
+            }
+        ]
+    }
+]

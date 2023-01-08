@@ -1,0 +1,23 @@
+.list-group-horizontal{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: wheat;
+    padding: 100 px;
+    margin: 100 px;
+    border: 10 px solid brown;
+}
+.list-group-item{
+    list-style: None;
+    display: flex;
+    justify-content: center;
+    border: 1px solid brown;
+}
+a:hover{
+    background-color: skyblue;
+    color:brown;
+}
+a{
+    border: 1px solid brown;
+    padding: 10px;
+}

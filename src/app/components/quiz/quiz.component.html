@@ -1,0 +1,39 @@
+<form class="test-field" method="post" #questionForm="ngForm" (ngSubmit)="submit(questionForm)">
+
+<ol class="question-container" type="1">
+    <li *ngFor="let q of questions">
+        <div [ngSwitch]="q.type">
+            <div class="question-block" *ngSwitchCase="'single choice'">
+                
+                    <div class="question-text">{{q.questionText}}</div>
+                    <span>{{q.id}}</span>
+                    <ol class="list-group" id="{{q.id}}" type="a">
+                        <li class="list-group-item" *ngFor="let c of q.options">
+                            <div class="form-group">
+                                <input type="radio" name="{{q.id}}" required value="{{c.choice_label}}" ngModel>
+                                <label class="form-label">{{c.choice_text}}</label>
+                            </div>
+                        </li>
+                    </ol>
+                
+            </div>
+            <div class="question-block" *ngSwitchCase="'Multiple choice'">
+                
+                    <div class="question-text">{{q.questionText}}</div>
+                    <span>{{q.id}}</span>
+                    <ol class="list-group" id="{{q.id}}" type="a">
+                        <li class="list-group-item" *ngFor="let c of q.options">
+                            <div class="form-group">
+                                <input type="checkbox" name="{{q.id + c.choice_label}}" class="form-control" value="c.choice_text" ngModel>
+                                <label class="form-label">{{c.choice_text}}</label>
+                            </div>
+                        </li>
+                    </ol>
+                
+            </div>
+            <div *ngSwitchDefault></div>
+        </div>
+    </li>
+</ol>
+<input class="form-control" type="submit" value="Submit and Review Results">
+</form> 

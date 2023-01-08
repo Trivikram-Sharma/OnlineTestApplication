@@ -1,0 +1,14 @@
+
+.wrong-answer{
+    background-color: crimson;
+    color:wheat;
+}
+.right-answer{
+    background-color: greenyellow;
+    color:violet
+}
+.score{
+    text-align: center;
+    background-color: teal;
+    color: white;
+}

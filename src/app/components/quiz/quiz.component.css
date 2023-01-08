@@ -1,0 +1,60 @@
+.test-field{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    align-content: center;
+    align-self: center;
+}
+
+.question-container{
+    
+    background-color: yellowgreen;
+}
+.question-block{
+    margin: 10px 12px;
+    padding: 10px 12px;
+}
+.question-block:hover{
+    background-color: wheat;
+
+}
+.question-block li:hover,.question-block div:hover{
+    background-color: royalblue;
+}
+
+.page-active{
+    background-color: royalblue;
+    color: white;
+}
+.page-inactive{
+    color:black;
+    background-color: white;
+}
+.pagination{
+    list-style: None;
+    display: flex;
+    flex-direction: row;
+    float: right;
+}
+.pagination li{
+    border: 2px solid black;
+    margin: 2px;
+}
+.page-item{
+    display: flex;
+    padding: 1em;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.page-item:hover{
+    color:wheat;
+    background-color: royalblue;
+}
+.page-link:hover{
+    color:wheat;
+    background-color: royalblue;
+}
+.ngtouched .ng-invalid{
+    border: 1px solid red;
+}

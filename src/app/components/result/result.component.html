@@ -1,0 +1,21 @@
+<h4>Please attempt the test, and submit, in order to see results</h4>
+
+
+<div *ngIf="results">
+    <ul type="None">
+        <li *ngFor="let q of questions">
+            {{q.id}}. {{q.questionText}}<br>
+            Your Answer:<br>
+            <div [class]="checkAnswer(q.id)?'right-answer':'wrong-answer'" *ngFor="let o of current_result(q.id)">
+                {{o.choice_label}}. {{o.choice_text}}
+            </div>
+            Correct Answer:<br>
+            <div class="'right-answer'" *ngFor="let o of corresponding_answer(q.id)">
+                {{o.choice_label}}. {{o.choice_text}}
+            </div>
+        </li>
+    </ul>
+    <div class="score">
+        Your Score : {{score*100}} {{"%"}}
+    </div>
+</div>

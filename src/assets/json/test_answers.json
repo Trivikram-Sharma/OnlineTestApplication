@@ -1,0 +1,53 @@
+[
+    {
+        "question_id" : 1,
+        "type": "single choice",
+        "answers":[
+            {
+                "choice_label": "a",
+                "choice_text" : "Object Oriented Programming System"
+            }
+        ]
+    },
+    {
+        "question_id" : 2,
+        "type": "single choice",
+        "answers":[
+            {
+                
+                "choice_label": "c",
+                "choice_text" : "Object oriented programming language"
+            }
+        ]
+    },
+    {
+        "question_id" : 3,
+        "type": "Multiple choice",
+        "answers":[
+            {
+                "choice_label": "a",
+                "choice_text" : "Structured Programming language"
+            },
+            {
+                
+                "choice_label": "c",
+                "choice_text" : "Procedural language"
+            }
+        ]
+    },
+    {
+        "question_id" : 4,
+        "type": "Multiple choice",
+        "answers":[
+            {
+                "choice_label": "a",
+                "choice_text" : "Database language"
+            },
+            {
+                
+                "choice_label": "b",
+                "choice_text" : "Structured Query Language"
+            }
+        ]
+    }
+]
